@@ -1,0 +1,58 @@
+2022-11-10 03:50:30,299 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TrelloApiApplication using Java 19.0.1 on John with PID 64392 (D:\project\trello\target\classes started by vaxob in D:\project\trello)
+2022-11-10 03:50:30,299 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TrelloApiApplication using Java 19.0.1 on John with PID 64392 (D:\project\trello\target\classes started by vaxob in D:\project\trello)
+2022-11-10 03:50:30,306 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-10 03:50:30,306 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-10 03:50:30,307 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-10 03:50:30,307 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-10 03:50:54,470 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-10 03:50:55,087 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-10 03:50:55,300 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [restartedMain] 27 mappings in 'requestMappingHandlerMapping'
+2022-11-10 03:50:56,352 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**, /swagger-ui*/**] in 'resourceHandlerMapping'
+2022-11-10 03:50:56,447 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-10 03:50:57,923 WARN o.s.b.d.a.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-11-10 03:50:58,009 INFO o.s.b.StartupInfoLogger [restartedMain] Started TrelloApiApplication in 33.847 seconds (JVM running for 37.202)
+2022-11-10 03:50:58,009 INFO o.s.b.StartupInfoLogger [restartedMain] Started TrelloApiApplication in 33.847 seconds (JVM running for 37.202)
+2022-11-10 03:51:11,140 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-10 03:51:11,142 DEBUG o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2022-11-10 03:51:11,143 DEBUG o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Detected AcceptHeaderLocaleResolver
+2022-11-10 03:51:11,143 DEBUG o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Detected FixedThemeResolver
+2022-11-10 03:51:11,152 DEBUG o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4916ff6c
+2022-11-10 03:51:11,153 DEBUG o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b710125
+2022-11-10 03:51:11,154 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-10 03:51:11,154 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 13 ms
+2022-11-10 03:51:11,294 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] GET "/swagger-ui/index.html", parameters={}
+2022-11-10 03:51:11,328 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:11,438 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2022-11-10 03:51:11,710 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-6] GET "/swagger-ui/swagger-ui.css", parameters={}
+2022-11-10 03:51:11,715 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:11,727 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-5] GET "/swagger-ui/index.css", parameters={}
+2022-11-10 03:51:11,731 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:11,733 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-9] GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2022-11-10 03:51:11,734 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:11,738 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2022-11-10 03:51:11,741 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] GET "/swagger-ui/swagger-initializer.js", parameters={}
+2022-11-10 03:51:11,741 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-10] GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2022-11-10 03:51:11,742 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:11,743 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2022-11-10 03:51:11,747 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:11,780 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-10] Completed 200 OK
+2022-11-10 03:51:11,795 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2022-11-10 03:51:11,822 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2022-11-10 03:51:13,028 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-3] GET "/api-docs/swagger-config", parameters={}
+2022-11-10 03:51:13,036 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2022-11-10 03:51:13,113 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-4] GET "/swagger-ui/favicon-32x32.png", parameters={}
+2022-11-10 03:51:13,120 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-11-10 03:51:13,130 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2022-11-10 03:51:13,133 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json]
+2022-11-10 03:51:13,137 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-3] Writing [{configUrl=/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-redir (truncated)...]
+2022-11-10 03:51:13,154 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2022-11-10 03:51:13,269 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-7] GET "/api-docs", parameters={}
+2022-11-10 03:51:13,273 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2022-11-10 03:51:15,390 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [application/json, */*] and supported [application/json]
+2022-11-10 03:51:15,390 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-7] Writing ["{"openapi":"3.0.1","info":{"title":"First Step Forward API","description":"This API just for learnin (truncated)..."]
+2022-11-10 03:51:15,408 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2022-11-10 03:51:24,953 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-10] GET "/api-docs", parameters={}
+2022-11-10 03:51:24,954 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2022-11-10 03:51:24,960 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-10] Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json]
+2022-11-10 03:51:24,960 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-10] Writing ["{"openapi":"3.0.1","info":{"title":"First Step Forward API","description":"This API just for learnin (truncated)..."]
+2022-11-10 03:51:24,962 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-10] Completed 200 OK
